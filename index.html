@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/mobile.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;1,300&family=Staatliches&display=swap" rel="stylesheet">
 
@@ -19,12 +20,12 @@
             <ul>
                 <li><a href="#">Devenir membre</a></li>
                 <li><a href="#">Connexion</a></li>
-                <li><button>Inscrption</button></li>
+                <li><a href="#" class="boutonnav">Inscrption</a></li>
             </ul>
         </nav>
     </header>
     <!--liste de lien-->
-    <section>
+    <section class="grida">
         <ul>
             <li><a href="#">TECH</a></li>
             <li><a href="#">MODE</a></li>
@@ -35,8 +36,8 @@
         </ul>
     </section>
     <!--section top 3 articles-->
-    <section>
-        <div>
+    <section class="articlesgrid">
+        <div class="childgrid">
             <img src="/sources/bloc-1.jpeg" alt="image1"></img>
             <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto aperiam perspiciatis nam pariatur itaque adipisci fugiat facere neque. Quod voluptatum sint illum est cumque earum magni, eaque dolore aspernatur repudiandae.</p>
@@ -44,29 +45,35 @@
             <p>lorem</p>
         </div>
         <div>
-            <div>
-                <img src="/sources/bloc-2.jpeg" alt="image"></img>
-                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <p>Lorem ipsum dolor sit amet </p>
-                <p>Lorem ipsum dolor sit</p>
+            <div class="div3mid">
+                <div class="h3etimg">
+                    <img src="/sources/bloc-2.jpeg" alt="image"></img>
+                    <h3 class="hpmid">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                </div>
+                <p class="pdemid">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam culpa, placeat fuga delectus rerum sunt ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p class="pdemid">Lorem ipsum dolor sit amet </p>
+                <p class="pdemid">Lorem ipsum dolor sit</p>
             </div>
-            <div>
-                <img src="/sources/bloc-3.jpeg" alt="image"></img>
-                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
-                <p>Lorem ipsum dolor sit</p>
-                <p>Lorem ipsum </p>
+                <div>
+                    <div class="h3etimg">
+                    <img src="/sources/bloc-3.jpeg" alt="image"></img>
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                </div>
+                <p class="pdemid">Lorem ipsum dolor sit</p>
+                <p class="pdemid">Lorem ipsum</p>
                 
             </div>
             <div>
-                <img src="/sources/bloc-4.jpeg" alt="image"></img>
-                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                <div class="h3etimg">
+                    <img src="/sources/bloc-4.jpeg" alt="image"></img>
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                </div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 <p>Lorem ipsum dolor</p>
                 
             </div>
         </div>
-        <div>
+        <div class="childgrid">
             <img src="/sources/bloc-5.jpeg" alt="image"></img>
             <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -76,69 +83,66 @@
     </section>
 
     <!--section mid avec bouton-->
-    <section>
-        <div>
-            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+    <hr>
+    <section class="sectionlienmid">
+        
+            <h3 class="h3lien">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
             <p>Lorem ipsum dolor</p>
-        </div>
-        <div>
             <form>
                 <label for="exampleInputEmail1" class="form-label" place-holder="Adresse email"></label>
                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                 <button>Inscrption</button>
             </form>
-        </div>
+        
     </section>
 
     <!--section du bas-->
-    <section>
+    <section class="sectiondubas">
         <div> 
             <h2>Technologie</h2> 
             <hr>
-            <div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-                <img src="/sources/bloc-6.jpeg" alt=""> 
+            <div class="pimgsectiondubas">
+                <p class="psectiondubas">Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit<img src="/sources/bloc-6.jpeg" alt=""> </p>
+                <p class="psectiondubas">Lorem ipsum dolor sit amet consectetur adipisicing elit2218</p>
+                <p class="psectiondubas">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                <p class="psectiondubas">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                
             </div>
-            <div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            <div class="pimgsectiondubas">
+                <p class="psectiondubas">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                <p class="psectiondubas">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                <p class="psectiondubas">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                <p class="psectiondubas">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
                 <img src="/sources/bloc-7.jpeg" alt=""> 
             </div>
-            <div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            <div class="pimgsectiondubas">
+                <p class="psectiondubas">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                <p class="psectiondubas">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                <p class="psectiondubas">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                <p class="psectiondubas">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
                 <img src="/sources/bloc-8.jpeg" alt=""> 
             </div>
-        </div>
-        <div>
             <h2>Mode</h2>
             <hr>
-            <div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            <div class="pimgsectiondubas">
+                <p class="psectiondubas">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                <p class="psectiondubas">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                <p class="psectiondubas">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                <p class="psectiondubas">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
                 <img src="/sources/bloc-9.jpeg" alt=""> 
             </div>
-            <div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            <div class="pimgsectiondubas">
+                <p class="psectiondubas">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                <p class="psectiondubas">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                <p class="psectiondubas">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                <p class="psectiondubas">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
                 <img src="/sources/bloc-10.jpeg" alt=""> 
             </div>
-            <div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            <div class="pimgsectiondubas">
+                <p class="psectiondubas">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                <p class="psectiondubas">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                <p class="psectiondubas">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                <p class="psectiondubas">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
                 <img src="/sources/bloc-11.jpeg" alt=""> 
             </div>
         </div>
@@ -146,24 +150,24 @@
         <div>
             <h3>Populaire</h3>
             <hr>
-            <ul>
+            <ol>
                 <li>
-                    <p></p>
-                    <p></p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
                 </li>
                 <li>
-                    <p></p>
-                    <p></p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
                 </li>
                 <li>
-                    <p></p>
-                    <p></p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
                 </li>
                 <li>
-                    <p></p>
-                    <p></p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
                 </li>
-            </ul>
+            </ol>
         </div>
     </section>
 

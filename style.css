@@ -137,15 +137,24 @@ align-content: center;
 /**section bas**/
 
 .sectiondubas{
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+
 }
 
 .pimgsectiondubas{
-    display: flex;
-    padding-right: 2rem;
-    flex-direction: column;
+    
+    padding-right: 4rem;
+
+ 
 }
 .psectiondubas{
     display: flex;
+}
+.hrdubas{
+    padding-bottom: 3rem;
+}
+
+.imgfloat{
+    float: right;
 }
